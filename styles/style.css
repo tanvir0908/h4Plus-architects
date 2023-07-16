@@ -12,6 +12,7 @@ header {
   background: rgba(255, 144, 14, 0.1);
   padding: 1% 10%;
 }
+/* Navbar Section  */
 nav {
   display: flex;
   align-items: center;
@@ -40,4 +41,57 @@ nav ul a:hover {
 }
 .nav-list {
   margin-right: 50px;
+}
+
+/* Banner Section */
+.banner {
+  margin-top: 5rem;
+  text-align: center;
+}
+.banner-title {
+  font-size: 350%;
+  color: #131313;
+  margin-bottom: 1rem;
+}
+.banner-description {
+  color: #727272;
+  line-height: 150%;
+  margin-bottom: 3%;
+}
+.banner-image {
+  width: 100%;
+}
+.banner-btn {
+  color: white;
+  border: none;
+  font-size: 100%;
+  font-weight: 500;
+  width: 180px;
+  height: 64px;
+  border-radius: 8px;
+  background: #ff900e;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+.banner-btn:hover {
+  background-color: #995608;
+  border: 2px solid #ff900e;
+}
+
+/* Responsive Styles */
+/* Mobile Devices */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 5% 3%;
+  }
+  nav{
+    flex-direction: column;
+  }
+  nav h3{
+    margin-bottom: 5%;
+  }
+}
+/* Tablet Devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+  
 }
