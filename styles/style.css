@@ -6,3 +6,38 @@
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+/* Header Section */
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 1% 10%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h3 {
+  color: #131313;
+  font-size: 180%;
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul a {
+  font-size: 100%;
+  text-decoration: none;
+  color: #424242;
+  font-weight: 500;
+}
+nav ul a:hover {
+  color: #ff900e;
+  transition: 0.3s;
+}
+.nav-list {
+  margin-right: 50px;
+}
