@@ -11,6 +11,7 @@
 header {
   background: rgba(255, 144, 14, 0.1);
   padding: 1% 10%;
+  padding-bottom: 3%;
 }
 /* Navbar Section  */
 nav {
@@ -78,20 +79,63 @@ nav ul a:hover {
   border: 2px solid #ff900e;
 }
 
+/* Features Section */
+main {
+  margin: 5% 10%;
+}
+.features-section {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+.features-image {
+  width: 100%;
+}
+.features-left {
+  display: grid;
+  gap: 2%;
+  flex: 1;
+  grid-template-columns: repeat(2, 1fr);
+}
+.features-right {
+  flex: 1;
+}
+.feature-title {
+  font-size: 200%;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.feature-light {
+  color: #727272;
+  font-weight: 500;
+}
+.feature-span {
+  color: #ff900e;
+}
+.feature-description {
+  line-height: 150%;
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
 /* Responsive Styles */
 /* Mobile Devices */
 @media screen and (max-width: 576px) {
+  /* Header */
   header {
     padding: 5% 3%;
   }
-  nav{
+  /* Navbar */
+  nav {
     flex-direction: column;
   }
-  nav h3{
+  nav h3 {
     margin-bottom: 5%;
+  }
+  /* Banner */
+  .banner-title {
+    font-size: 235%;
   }
 }
 /* Tablet Devices */
-@media screen and (min-width:576px) and (max-width:960px) {
-  
+@media screen and (min-width: 576px) and (max-width: 960px) {
 }
